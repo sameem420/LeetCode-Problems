@@ -11,7 +11,7 @@ var twoSum = function(nums, target) {
     //             return [i,j];
     //     }
     // }
-    // 2nd Solution, Time Complexity = O(n)
+    // 2nd Solution, Efficient, Time Complexity = O(n)
     // let values = new Map();
     // for(let i=0; i< nums.length; i++) {
     //     let complement = target - nums[i];
@@ -21,7 +21,7 @@ var twoSum = function(nums, target) {
     //     values.set(nums[i],i);
     // }
     // return [];
-    // 2nd Solution, Time Complexity = O(n)
+    // 3rd Solution, Best ^ Efficient, Time Complexity = O(n)
     let hash = {};
 	
 	for(let i = 0; i < nums.length; i++) {
