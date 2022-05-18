@@ -4,10 +4,10 @@
  */
 var reverseString = function(s) {
     // return s.reverse()
-    let i=0, j= s.length-1;
-    while(i<j) {
-        [s[i],s[j]] = [s[j],s[i]]; 
-        i++;
-        j--;
+    let start = 0, end = s.length - 1;
+    while (start <= end) {
+        [s[start], s[end]] = [s[end], s[start]];
+        start++;
+        end--;
     }
 };
