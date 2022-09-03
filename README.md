@@ -1,2 +1,1 @@
-# DSA
-DSA Problems &amp; Solutions
+# LeetCode Problems & Solutions
